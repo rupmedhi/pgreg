@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form create</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">user name</label><br>
+            <input type="text" id="username" name="username"
+            required placeholder="enter your username">
+           
+        </div>
+        
+        <div>
+            <label for="password">password</label> <br>
+            <input type="password" id="password" name="password"
+            required placeholder="enter your password">
+        </div>
+       
+      
+       <div>
+            <label for="number">Enter number</label><br>
+            <input type="number" id="number" required name="number"
+            placeholder="enter your number">
+        </div>
+
+        <div>
+            <label for="time">Set your time</label><br>
+            <input type="time" id="time" required>
+        </div>
+        
+        <div>
+            <label for="email">Enter your email</label><br>
+            <input type="email" id="email" required name="email"
+            placeholder="abc@gmail.com">
+        </div>
+        <div>
+            <label for="range">select your age renge</label><br>
+            <input type="range" id="range" required min="10" max="25" step="5">
+        </div>
+        <div>
+            <label for="state">enter your state</label><br>
+            <input type="text" id="state" 
+            required value="ASSAM" name="state" disabled>
+        </div>
+        <div>
+            <label for="state">enter your state</label><br>
+            <input type="text" id="state" 
+            required value="sikkim" name="state">
+        </div>
+
+
+     
+      <div>
+         <h4>Gender</h4>
+        <input type="radio" name="gender" value="male" checked>Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">Other<br>
+      </div>
+
+      <div>
+        <h4>Course complete</h4>
+        <input type="checkbox" name="course complete" value="c++" checked>C++ <br>
+        <input type="checkbox" name="course complete" value="java">java<br>
+        <input type="checkbox" name="course complete" value="JS">JS<br>
+        <input type="checkbox" name="course complete" value="python">python<br>
+      </div>
+        
+
+      <div>
+         <h3>select month</h3>
+        <select name="month_selecterd">
+          
+            <option>JAN</option>
+            <option>FEB</option>
+            <option selected>MARCH</option>
+            <option>APRIL</option>
+            <option>MAY</option>
+            <option>JUN</option>
+            <option>JULY</option>
+            <option>AUGUST</option>
+            <option>SEP</option>
+            <option>OCBTR</option>
+            <option>NOV</option>
+            <option>DECEMBER</option>
+        </select>
+      </div>
+
+
+      <p>Write a feedback of your experience</p>
+      <textarea name="experience or feedback form"
+      rows="10" cols="39"></textarea>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+     <div>
+        <label for="submit">submit</label><br>
+       <input type="submit" id="submit">
+   </div>
+        
+    </form>
+</body>
+</html>
